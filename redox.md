@@ -13,8 +13,6 @@
 
 But the Linux security model is designed for servers.
 
-???
-
 - Can you trust the kernel?
 - Can you trust the userspace?
 - Can you trust the users?
@@ -93,4 +91,4 @@ fn spy() {
 # That's all, folks
 
 - Not a MoCo project (yet?)
-- http://redox-os.org
+- http://redox-os.org (LiveCD available)
