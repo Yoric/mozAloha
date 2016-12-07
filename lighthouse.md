@@ -2,6 +2,8 @@ class: middle, center
 
 Project Lighthouse
 
+![](lighthouse.jpeg)
+
 David Teller (Yoric)
 
 ---
@@ -33,7 +35,7 @@ class: center, middle
 
 # Current status
 
-- Team: 2 devs, 2 EPM, 2 EM
+- Team: 1 UX, 2 devs, 2 EPM, 2 EM
 - User Testing: ~25 users
 - Competition: either $1000+ or requires a smartphone
 - Prototype cost: ~$80
