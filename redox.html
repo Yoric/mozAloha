@@ -106,37 +106,47 @@ code {
 	</head>
 	<body>
 		<textarea id="source">
-.center[Redox OS]
+class: middle, center
 
-.center[Revamping security for the age of IoT]
 
-.center[![](redox.svg)]
+Redox OS
 
-.center[David Teller / `Yoric`]
+Revamping OS security for the age of IoT
+
+![](redox.svg)
+
+David Teller / `Yoric`
 
 
 ---
 
 # Linuxen are a great OSes
 
-But the Linux security model is designed for servers.
-
-???
 
 - Can you trust the kernel?
 - Can you trust the userspace?
 - Can you trust the users?
 - Can you patch exploits?
 
+The answer is yes.
+
+--
+
+...except on IoT/smart devices.
+
 ---
+
+class: middle
 
 # How can we do better?
 
-- Make the kernel safer & more secure
-- Make the userspace safer & more secure
-- Make your device easier to upgrade
+- Make the kernel safer & more secure.
+- Make the userspace safer & more secure.
+- Make your device easier to upgrade.
 
 ---
+
+class: middle
 
 # Safer & more secure
 
@@ -152,16 +162,13 @@ But the Linux security model is designed for servers.
 
 ---
 
+class: middle
+
 # Easier to upgrade
 
 - Kernel => µKernel
+- Drivers => Processes
 - Clear runtime dependencies (WIP)
-
----
-
-# Namespaces
-
-FIXME: TODO
 
 ---
 
@@ -194,14 +201,16 @@ fn spy() {
 
 ---
 
-.center[Demo time]
+class: center, middle
+
+Demo time
 
 ---
 
 # That's all, folks
 
 - Not a MoCo project (yet?)
-- http://redox-os.org
+- http://redox-os.org (LiveCD available)
 
 		</textarea>
 		<script>require=(function(e,t,n){function i(n,s){if(!t[n]){if(!e[n]){var o=typeof require=="function"&&require;if(!s&&o)return o(n,!0);if(r)return r(n,!0);throw new Error("Cannot find module '"+n+"'")}var u=t[n]={exports:{}};e[n][0].call(u.exports,function(t){var r=e[n][1][t];return i(r?r:t)},u,u.exports)}return t[n].exports}var r=typeof require=="function"&&require;for(var s=0;s<n.length;s++)i(n[s]);return i})({"components/printing":[function(require,module,exports){

@@ -1,32 +1,44 @@
-.center[Redox OS]
+class: middle, center
 
-.center[Revamping security for the age of IoT]
 
-.center[![](redox.svg)]
+Redox OS
 
-.center[David Teller / `Yoric`]
+Revamping OS security for the age of IoT
+
+![](redox.svg)
+
+David Teller (Yoric)
 
 
 ---
 
 # Linuxen are a great OSes
 
-But the Linux security model is designed for servers.
 
 - Can you trust the kernel?
 - Can you trust the userspace?
 - Can you trust the users?
 - Can you patch exploits?
 
+The answer is yes.
+
+--
+
+...except on IoT/smart devices.
+
 ---
+
+class: middle
 
 # How can we do better?
 
-- Make the kernel safer & more secure
-- Make the userspace safer & more secure
-- Make your device easier to upgrade
+- Make the kernel safer & more secure.
+- Make the userspace safer & more secure.
+- Make your device easier to upgrade.
 
 ---
+
+class: middle
 
 # Safer & more secure
 
@@ -42,16 +54,13 @@ But the Linux security model is designed for servers.
 
 ---
 
+class: middle
+
 # Easier to upgrade
 
 - Kernel => µKernel
+- Drivers => Processes
 - Clear runtime dependencies (WIP)
-
----
-
-# Namespaces
-
-FIXME: TODO
 
 ---
 
@@ -84,7 +93,9 @@ fn spy() {
 
 ---
 
-.center[Demo time]
+class: center, middle
+
+Demo time
 
 ---
 

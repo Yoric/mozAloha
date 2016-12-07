@@ -1,15 +1,15 @@
-.center[Project Lighthouse]
+class: middle, center
 
-.center[David Teller]
+Project Lighthouse
 
-.center[`Yoric`]
+David Teller (Yoric)
 
 ---
 
-- ~285 millions vision-impaired people over the world
-- 90% live in low-income
+class:middle
 
-???
+- ~285 millions vision-impaired people over the world (~20 millions in the US)
+- 90% live in low-income
 
 Can we help them?
 
@@ -17,32 +17,37 @@ Can we help them?
 
 # Problem: Identifying items
 
-- **Grocery**
+- **Groceries**
 - Medications
 - Clothes
 
+.center[![](groceries-smaller.jpg)]
+
 ---
 
-.center[Demo time]
+class: center, middle
+
+# Demo time
 
 ---
 
 # Current status
 
-- User Testing: FIXME
-- Prototype cost: 
-- Industrial cost estimate: ~50$ including S&H
+- Team: 2 devs, 2 EPM, 2 EM
+- User Testing: ~25 users
+- Competition: either $1000+ or requires a smartphone
+- Prototype cost: ~$80
+- Industrial cost estimate: ~$50 including S&H
 
 ---
 
 # What's next?
 
-- Form factor
+## Userbase
+- Alzheimer's patients
+
+## Uses
 - OCR
-
----
-
-# Exploring further ideas
-
+- Recognizing logos
 - Connecting with Volunteers
-- Alzheimer's
+- Deep Learning?
