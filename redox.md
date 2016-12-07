@@ -20,11 +20,11 @@ David Teller (Yoric)
 - Can you trust the users?
 - Can you patch exploits?
 
-The answer is yes.
+The answer is generally **yes**.
 
 --
 
-...except on IoT/smart devices.
+...**except** on IoT/smart devices.
 
 ---
 
@@ -98,6 +98,8 @@ class: center, middle
 Demo time
 
 ---
+
+class: middle
 
 # That's all, folks
 
